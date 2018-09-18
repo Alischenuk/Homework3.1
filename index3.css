@@ -10,10 +10,10 @@ body {
 	padding-top: 100px;
 	box-sizing: border-box;
 	text-align: center;
+	position: relative;
 }
 .maintext {
 	font-size: 450%;
-	letter-spacing: ;
 	color: white;
 	font-weight: bold;
 	text-shadow: 3px 3px 1px #9ab2c7;	
@@ -37,7 +37,15 @@ body {
 	border-radius: 5px;
 	border: none;
 }
-
+.boat {
+	position: absolute;
+	bottom: -5px;
+	left: 300px;
+	transition: left 1s cubic-bezier(0, 0, 0, 0);
+}
+.boat:hover {
+	left: 20px;
+}
 .sea {	
 	background: url(sea2.png);
 	height: 220px;
