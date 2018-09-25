@@ -40,8 +40,7 @@ body {
 	font-weight: 100;
 	font-family: HouschkaPro-Light;
 	letter-spacing: -0.4px;
-	margin-top: -1px;
-	
+	margin-top: -1px;	
 }
 .email {
 	position: relative;	
@@ -70,7 +69,6 @@ body {
 	position: relative;
 	margin-left: -48px;
 	z-index: 1;
-	bottom: ;
 }
 .boat {
 	position: relative;
